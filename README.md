@@ -8,13 +8,6 @@
 - «Генератор команды»: ссылка или PNG-файл (кнопка «Обзор...» открывает проводник, файл можно и перетащить в окно) -> готовая команда. Файл загружается через сервис SkinsRestorer (Axolotl) / MineSkin, как на skinsrestorer.net/upload.
 - Превью понимает ссылки `https://minesk.in/...`, `skinsrestorer-axolotl://...` и прямые ссылки на PNG.
 
-## Сборка
-1. JDK 21.
-2. Скопируйте `gradlew`, `gradlew.bat` и папку `gradle/` из шаблона https://fabricmc.net/develop/template/
-   (выберите 1.21.11, Mojang mappings), либо установите Gradle и выполните `gradle build`.
-3. `./gradlew build` -> jar в `build/libs/` (без `-sources`).
-4. Положите jar в `mods/` вместе с Fabric API.
-
 ## Файлы
 - `config/skinlibrary/skins.json` — библиотека.
 - `config/skinlibrary/config.json` — необязательный `mineskinApiKey` (используется только если загрузка через Axolotl не сработает).
