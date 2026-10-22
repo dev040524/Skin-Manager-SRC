@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "skinlibrary",
+  "version": "${version}",
+  "name": "Skin Library",
+  "description": "Библиотека скинов для SkinRestorer: 3D-превью, быстрая смена скина и генератор команд.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.skinlibrary.SkinLibraryClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "icon": "assets/skinlibrary/icon.png"
+}
